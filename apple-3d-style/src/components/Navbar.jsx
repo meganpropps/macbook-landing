@@ -8,7 +8,7 @@ export const Navbar = () => {
             <img src="/logo.svg" alt="Apple Logo" />
             
             <ul>
-                {navLinks.map((label) => (
+                {navLinks.map(({label}) => (
                     <li key={label}>
                         <a href={label}>{label}</a>
                     </li>

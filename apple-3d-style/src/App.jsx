@@ -1,9 +1,12 @@
-import { Navbar } from './components/Navbar'
+import { Navbar } from './components/Navbar';
+import { Hero } from './components/hero';
+import './index.css'
 
 
 const App = () => {
     return (
-    <main><Navbar /></main>
+    <main><Navbar />
+    <Hero /></main>
   );
 };
 
